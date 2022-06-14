@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6FA4D6FD285840B7007CA0AD /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA4D6FC285840B7007CA0AD /* ScrumdingerApp.swift */; };
-		6FA4D6FF285840B7007CA0AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA4D6FE285840B7007CA0AD /* ContentView.swift */; };
+		6FA4D6FF285840B7007CA0AD /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA4D6FE285840B7007CA0AD /* MeetingView.swift */; };
 		6FA4D701285840B9007CA0AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FA4D700285840B9007CA0AD /* Assets.xcassets */; };
 		6FA4D705285840B9007CA0AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FA4D704285840B9007CA0AD /* Preview Assets.xcassets */; };
 		6FA4D70F285840B9007CA0AD /* ScrumdingerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA4D70E285840B9007CA0AD /* ScrumdingerTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		6FA4D6F9285840B7007CA0AD /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FA4D6FC285840B7007CA0AD /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
-		6FA4D6FE285840B7007CA0AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6FA4D6FE285840B7007CA0AD /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; usesTabs = 1; };
 		6FA4D700285840B9007CA0AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FA4D702285840B9007CA0AD /* Scrumdinger.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Scrumdinger.entitlements; sourceTree = "<group>"; };
 		6FA4D704285840B9007CA0AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -96,7 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				6FA4D6FC285840B7007CA0AD /* ScrumdingerApp.swift */,
-				6FA4D6FE285840B7007CA0AD /* ContentView.swift */,
+				6FA4D6FE285840B7007CA0AD /* MeetingView.swift */,
 				6FA4D700285840B9007CA0AD /* Assets.xcassets */,
 				6FA4D702285840B9007CA0AD /* Scrumdinger.entitlements */,
 				6FA4D703285840B9007CA0AD /* Preview Content */,
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FA4D6FF285840B7007CA0AD /* ContentView.swift in Sources */,
+				6FA4D6FF285840B7007CA0AD /* MeetingView.swift in Sources */,
 				6FA4D6FD285840B7007CA0AD /* ScrumdingerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,14 +419,15 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Scrumdinger;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.wbreiler.Scrumdinger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -451,14 +452,15 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Scrumdinger;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.wbreiler.Scrumdinger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
