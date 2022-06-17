@@ -93,7 +93,6 @@
 		6FA4D6F0285840B7007CA0AD = {
 			isa = PBXGroup;
 			children = (
-				6FD10A952859120000AAC0CD /* ScrumsView.swift */,
 				6FA4D6FB285840B7007CA0AD /* Scrumdinger */,
 				6FA4D70D285840B9007CA0AD /* ScrumdingerTests */,
 				6FA4D717285840B9007CA0AD /* ScrumdingerUITests */,
@@ -114,8 +113,15 @@
 		6FA4D6FB285840B7007CA0AD /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
+				6FD10A952859120000AAC0CD /* ScrumsView.swift */,
 				6FA4D6FC285840B7007CA0AD /* ScrumdingerApp.swift */,
 				6FA4D6FE285840B7007CA0AD /* MeetingView.swift */,
+				6F910DD6285C2A8200336E2D /* ThemeView.swift */,
+				6F910DD8285C2B3E00336E2D /* ThemePicker.swift */,
+				6FD10A97285914D000AAC0CD /* DetailView.swift */,
+				6FC987E828591DC100F140F8 /* DetailEditView.swift */,
+				6FD10A9128590F6E00AAC0CD /* CardView.swift */,
+				6FD10A93285910AE00AAC0CD /* TrailingIconLabelStyle.swift */,
 				6FD10A8C28590DD800AAC0CD /* Models */,
 				6FA4D700285840B9007CA0AD /* Assets.xcassets */,
 				6FA4D702285840B9007CA0AD /* Scrumdinger.entitlements */,
@@ -152,14 +158,8 @@
 		6FD10A8C28590DD800AAC0CD /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				6F910DD6285C2A8200336E2D /* ThemeView.swift */,
-				6F910DD8285C2B3E00336E2D /* ThemePicker.swift */,
-				6FD10A97285914D000AAC0CD /* DetailView.swift */,
 				6FD10A8D28590DE600AAC0CD /* Theme.swift */,
 				6FD10A8F28590E6C00AAC0CD /* DailyScrum.swift */,
-				6FC987E828591DC100F140F8 /* DetailEditView.swift */,
-				6FD10A9128590F6E00AAC0CD /* CardView.swift */,
-				6FD10A93285910AE00AAC0CD /* TrailingIconLabelStyle.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";

@@ -4,4 +4,250 @@
    <FileRef
       location = "self:">
    </FileRef>
+   <Group
+      location = "group:Scrumdinger"
+      name = "Scrumdinger">
+      <FileRef
+         location = "group:TrailingIconLabelStyle.swift">
+      </FileRef>
+      <FileRef
+         location = "group:DetailView.swift">
+      </FileRef>
+      <FileRef
+         location = "group:CardView.swift">
+      </FileRef>
+      <FileRef
+         location = "group:ThemePicker.swift">
+      </FileRef>
+      <Group
+         location = "group:Assets.xcassets"
+         name = "Assets.xcassets">
+         <Group
+            location = "group:AppIcon.appiconset"
+            name = "AppIcon.appiconset">
+            <FileRef
+               location = "group:AppIcon40@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:AppIcon29@2x-1.png">
+            </FileRef>
+            <FileRef
+               location = "group:AppIcon76@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:AppIcon40@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:AppIcon60@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:AppIcon29@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:AppIcon29@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:AppIcon20@1x.png">
+            </FileRef>
+            <FileRef
+               location = "group:AppIcon60@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:AppIcon20@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:AppIcon29@1x.png">
+            </FileRef>
+            <FileRef
+               location = "group:AppIcon1024@1x.png">
+            </FileRef>
+            <FileRef
+               location = "group:AppIcon40@2x-1.png">
+            </FileRef>
+            <FileRef
+               location = "group:AppIcon20@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:AppIcon20@2x-1.png">
+            </FileRef>
+            <FileRef
+               location = "group:AppIcon76@1x.png">
+            </FileRef>
+            <FileRef
+               location = "group:AppIcon40@1x.png">
+            </FileRef>
+            <FileRef
+               location = "group:AppIcon83.5@2x.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:AccentColor.colorset"
+            name = "AccentColor.colorset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+         <Group
+            location = "group:Themes"
+            name = "Themes">
+            <Group
+               location = "group:purple.colorset"
+               name = "purple.colorset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:tan.colorset"
+               name = "tan.colorset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:magenta.colorset"
+               name = "magenta.colorset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:indigo.colorset"
+               name = "indigo.colorset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:seafoam.colorset"
+               name = "seafoam.colorset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:buttercup.colorset"
+               name = "buttercup.colorset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:orange.colorset"
+               name = "orange.colorset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:periwinkle.colorset"
+               name = "periwinkle.colorset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:poppy.colorset"
+               name = "poppy.colorset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:oxblood.colorset"
+               name = "oxblood.colorset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <Group
+               location = "group:yellow.colorset"
+               name = "yellow.colorset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:sky.colorset"
+               name = "sky.colorset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:lavender.colorset"
+               name = "lavender.colorset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:bubblegum.colorset"
+               name = "bubblegum.colorset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:navy.colorset"
+               name = "navy.colorset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:teal.colorset"
+               name = "teal.colorset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+         </Group>
+      </Group>
+      <FileRef
+         location = "group:ScrumsView.swift">
+      </FileRef>
+      <FileRef
+         location = "group:ThemeView.swift">
+      </FileRef>
+      <FileRef
+         location = "group:MeetingView.swift">
+      </FileRef>
+      <Group
+         location = "group:Models"
+         name = "Models">
+         <FileRef
+            location = "group:DailyScrum.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Theme.swift">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Preview Content"
+         name = "Preview Content">
+         <Group
+            location = "group:Preview Assets.xcassets"
+            name = "Preview Assets.xcassets">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+      </Group>
+      <FileRef
+         location = "group:ScrumdingerApp.swift">
+      </FileRef>
+      <FileRef
+         location = "group:DetailEditView.swift">
+      </FileRef>
+   </Group>
 </Workspace>
